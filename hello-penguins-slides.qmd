@@ -1,6 +1,15 @@
 ---
 title: Hello, Penguins!
-format: revealjs
+format:
+  revealjs:
+    transition: fade
+    chalkboard: true
+    slide-number: c
+    footer: "[Link to slides](https://google.com)"
+    multiplex: true
+
+execute:
+  echo: true
 ---
 
 ## Packages
@@ -29,18 +38,28 @@ penguins = load_penguins()
 The table below shows the first 10 penguins from the dataset.
 
 ```{python}
-#| label: penguins-top10
+#| label: tbl-penguins-top10
 gt.GT(penguins.head(n = 10))
 ```
 
 # Analysis
+
+# New python code test
+
+```{python}
+#| code-line-numbers: "|1-2|3"
+#| output-location: column-fragment
+print("testing")
+print("other")
+1 + 2
+```
 
 ## Species
 
 The figure below is a bar plot of species of penguins.
 
 ```{python}
-#| label: bill-dims-species
+#| label: fig-bill-dims-species
 #| warning: false
 #| fig-width: 5
 #| fig-asp: 0.618
@@ -52,3 +71,4 @@ The figure below is a bar plot of species of penguins.
   + p9.theme_minimal()
 )
 ```
+

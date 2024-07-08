@@ -1,0 +1,24 @@
+---
+title: John Doe
+about:
+  template: broadside
+  image: /Users/jordao.bragantini/Downloads/profile.jpg
+  image-width: 10em
+  image-shape: round
+---
+
+Testing testing testing testing testing testing testing testing testing testing testing 
+
+## Education
+
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul MA
+B.A in Economics | Sept 2007 - June 2011
+
+## Experience
+
+Wengo Analytics | Head Data Scientist | April 2018 - present
+
+GeoScynce | Chief Analyst | Sept 2012 - April 2018

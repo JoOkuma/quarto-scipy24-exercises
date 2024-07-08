@@ -1,0 +1,10 @@
+.RData
+.Rhistory
+*.swp
+*_files
+*.html
+*.pdf
+*.adoc
+/.quarto/
+_site/*
+_freeze/*
